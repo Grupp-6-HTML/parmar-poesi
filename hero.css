@@ -52,3 +52,7 @@
     top: 80%;
     scale: 0.5;
 }
+
+.dropdown-link {
+    text-decoration: none;
+}
