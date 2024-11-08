@@ -1,0 +1,44 @@
+.news-section {
+    width: 100%;
+    padding: 1em;
+    background: #D8B571;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news-section h2 {
+    font-size: 54px;
+    color: #F8F8F8;
+    font-family: "Bagel Fat One";
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
+.nyhets-block {
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.nyhets-block article {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    border: 1px solid red;
+}
+.nyhets-block figure {
+    width: 50%;
+    display: flex;
+    border: 1px solid green;
+}
+.nyhets-block aside {
+    width: 50%;
+    border: 1px solid blue;
+}
+.nyhets-block summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}

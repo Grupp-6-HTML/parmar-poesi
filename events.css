@@ -1,0 +1,43 @@
+.event-section {
+    background-color:#020202;
+    color:#F8F8F8;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.event-section h2 {
+    font-family:'Bagel Fat One';font-size: 54px; /*Ändra?*/
+    margin-bottom: 0.5em;
+}
+
+.event-card {
+    background-color: #F8F8F8;
+    color: #020202;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.event-content {
+    font-family: 'Afacad Flux';font-size: 18px;
+    text-align: left;
+    width: 50%;
+    padding: 1em;
+}
+
+.event-image {
+    width: 50%;
+    max-height: 10em;
+}
+
+.event-quote {
+    font-family: 'Afacad Flux';font-size: 18px;
+    padding: 3rem;
+    text-align: center;
+}
+
