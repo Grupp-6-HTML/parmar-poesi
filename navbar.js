@@ -13,11 +13,13 @@ hamburgerMenuButton.addEventListener('click', () => {
         hamburgerDropDownContent.classList.remove('openMenu');
         hamburgerMenuImage.style.display = 'block'
         hamburgerMenuCloseImage.style.display = 'none';
+
     }
     else {
         hamburgerDropDownContent.classList.add('openMenu');
         hamburgerMenuImage.style.display = 'none'
         hamburgerMenuCloseImage.style.display = 'block';
+
    }
 })
 
