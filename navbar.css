@@ -18,13 +18,24 @@ h1 {
     color: white;
 }
 
-.navbar {
-
+.nav {
+    position: relative;
 }
 
 .hamburger-menu-button {
+    position: relative;
     background-color: transparent;
     border: none;
+}
+
+.hamburger-menu-close-image {
+    position: absolute;
+    height: 60px;
+    width: 60px;   
+    top: -35px;
+    right: -10px;
+    display: none;
+    z-index: 10;
 }
 
 .hamburger-menu-image {
