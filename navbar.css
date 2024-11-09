@@ -72,6 +72,13 @@ h1 {
 
 }
 
+.hamburger-dropdown-texture-image {
+    position: absolute;
+    top: -21.5em;
+    opacity: 80%;
+    z-index: -1;
+}
+
 .dropdown-link-list {
     display: flex;
     flex-direction: column;
