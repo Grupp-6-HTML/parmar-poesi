@@ -1,7 +1,7 @@
 
 
 header {
-    position: absolute;
+    position: fixed;
     font-family: 'Afacad Flux';
     display: flex;
     align-items: center;
@@ -9,6 +9,8 @@ header {
     width: 100%;
     justify-content: space-between;
     background-color: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 10;
 }
 
 h1 {
@@ -16,6 +18,82 @@ h1 {
     color: white;
 }
 
-.navbar {
+.nav {
+    position: relative;
+}
 
+.hamburger-menu-button {
+    position: relative;
+    background-color: transparent;
+    border: none;
+}
+
+.hamburger-menu-close-image {
+    position: absolute;
+    height: 60px;
+    width: 60px;   
+    top: -35px;
+    right: -10px;
+    display: none;
+    z-index: 10;
+}
+
+.hamburger-menu-image {
+    position: relative;
+    z-index: 2;
+}
+
+.hamburger-dropdown-content {
+    display: flex;
+    flex-direction: column;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #FF9DEA;;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-100%);
+    gap:2em;
+}
+
+.hamburger-dropdown-content.openMenu {
+    flex-direction: column;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #FF9DEA;;
+    z-index: 1;
+    transform: translateY(0%);
+
+}
+
+.hamburger-dropdown-texture-image {
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.dropdown-link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 5em;
+}
+.dropdown-link {
+    padding-left: 0.5em;
+    font-size: 54px;
+    color: black;
+    font-family: 'Bagel Fat One';
+}
+
+.hamburger-menu-image:hover {
+    cursor: pointer;
 }

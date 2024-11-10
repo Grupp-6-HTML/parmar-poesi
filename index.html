@@ -29,7 +29,20 @@
     <header>
         <h1>Pärmar & Poesi</h1>
         <nav>
-            <img src="./images/Menu.png" class="hamburger-meny-image" alt="hambuger-menu-image"/>
+            <button class="hamburger-menu-button">
+                <img class="hamburger-menu-close-image" src="./images/black-x.png" alt="hamburger-menu-close-image"/>
+                <img class="hamburger-menu-image" src="./images/Menu.png" alt="hambuger-menu-image"/>
+            </button>
+            <div class="hamburger-dropdown-content">
+                <img class="hamburger-dropdown-texture-image" src="./images/dropdown-texture.png"/>
+                <ul class="dropdown-link-list">
+                    <a class="dropdown-link" href="#event-section">Evenemang</a>
+                    <a class="dropdown-link" href="#news-section">Nyheter</a>
+                    <a class="dropdown-link" href="#contact-section">Kontakta oss</a>
+                    <a class="dropdown-link" href="#contact-section">Facebook</a>
+                    <a class="dropdown-link" href="#contact-section">Instagram</a>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -38,35 +51,35 @@
             <img src="./images/katt-desktop.jpeg" class="hero-image" alt="hero-image"/>
             <div class="hero-wrapper">
                 <h2 class="hero-headings">Böcker<br>Poesi<br>Gemenskap</h2>
-                <button class="hero-contact-us-button" href="#">Kontakta oss</button>
+                <button class="hero-contact-us-button"><a class="hero-contact-us-button-text" href="#contact-section">Kontakta oss</a></button>
             </div>
             <img src="./images/Expand Arrow.png" class="hero-down-arrow" alt="down-arrow"/>
         </section>
 
-        <section class="event-section">
+        <section class="event-section" id="event-section">
             <h2>Evenemang</h2>
             <article class="event-card">
-                <p class="event-content">Ni är alla välkomna till vårat release party för Nancy Mitfords nya bok den 28/11 här på Pärmar & Poesi!</p>
+                <p class="event-content">Ni är alla välkomna till vårt release party för Nancy Mitfords nya bok den 28/11 här på Pärmar & Poesi!</p>
                 <img src="images/Bok1.jpeg" alt="Bok Queen of Hearts av Kimmery Martin" class="event-image">
             </article>
 
             <article class="event-card">
-                <p class="event-content">Ni är alla välkomna till vårat release party för Nancy Mitfords nya bok den 28/11 här på Pärmar & Poesi!</p>
+                <p class="event-content">Ni är alla välkomna till vårt release party för Nancy Mitfords nya bok den 28/11 här på Pärmar & Poesi!</p>
                 <img src="images/Bok2.jpeg" alt="Bok Bloom av Elsa Schiaparelli" class="event-image">
             </article>
 
             <article class="event-card">
-                <p class="event-content">Ni är alla välkomna till vårat release party för Nancy Mitfords nya bok den 28/11 här på Pärmar & Poesi!</p>
+                <p class="event-content">Ni är alla välkomna till vårt release party för Nancy Mitfords nya bok den 28/11 här på Pärmar & Poesi!</p>
                 <img src="images/Bok3.jpeg" alt="Bok Dont tell Alfred av Nancy Mitford" class="event-image">
             </article>
 
             <article class="event-quote">
-                <p>"No furniture is so charming as books."<br> ― Sydney Smith</p>
+                <p><i>"No furniture is so charming as books."<br></i> ― Sydney Smith</p>
             </article>
 
         </section>
 
-        <section class="news-section">
+        <section class="news-section" id="news-section">
             <h2>Nyheter</h2>
             <section class="nyhets-block">
                 <article>
@@ -150,6 +163,7 @@
         </div>
     </footer>
 
+    <script type="module" src="./navbar.js"></script>
 </body>
 
 </html>
