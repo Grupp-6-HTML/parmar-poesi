@@ -30,5 +30,5 @@ section {
 
 footer {
     grid-area: footer;
-    height: 7em;
+    height: 10em;
 }
