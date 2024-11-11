@@ -11,6 +11,7 @@ footer {
     font-size: 12px;
     font-weight: 100;
     width: 100%;
+    height: 10em;
 }
 
 .social-media {
@@ -18,4 +19,33 @@ footer {
     justify-content: center;
     gap: 15px;
     font-size: 26px;
+}
+
+.our-vision {
+    display: none;
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    footer {
+        height: 16em;
+        margin-top: -16rem;
+        font-size: 16px;
+    }
+
+    .social-media {
+        gap: 15px;
+        font-size: 30px;
+    }
+
+    .our-vision {
+        display: block;
+    }
+
+    .copyright {
+        display: block;
+        margin-top: auto;
+    }
+
 }
