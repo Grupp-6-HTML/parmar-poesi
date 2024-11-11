@@ -6,6 +6,7 @@
     background-position: center;
     position: relative;
     padding: 1em;
+    height: 100vh;
 }
 
 .title-contact {
@@ -26,6 +27,7 @@ form {
     align-items: center;
     text-align: right;
     margin-top: 1.5em;
+    max-height: 25em;
 }
 
 label {
@@ -144,4 +146,71 @@ label {
         color: #F8F8F8;
     }
 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .text1 {
+        width: 300px;
+    }
+
+    .text2 {
+        width: 620px;
+    }
+
+    .form-title, .form-title-name, .form-title-mail {
+        display: block;
+        margin-bottom: -20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin: auto;
+        margin-top: 4%;
+    }
+    
+    .input-row {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+    
+    .form-group {
+        flex: 1;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+    
+    .text-input, .text-area {
+        padding: 0.5em;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    .contact-quote {
+        display: block;
+        font-family: 'Afacad Flux';
+        font-size: 18px;
+        padding: 5em;
+        text-align: center;
+        color: #F8F8F8;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    .contact-quote {
+        display: block;
+        font-family: 'Afacad Flux';
+        font-size: 18px;
+        padding: 5em;
+        text-align: center;
+        color: #F8F8F8;
+    }
 }
