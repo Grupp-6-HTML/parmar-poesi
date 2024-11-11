@@ -30,7 +30,6 @@ section {
 
 footer {
     grid-area: footer;
-    height: 10em;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -42,6 +41,7 @@ footer {
     }
 
     body {
+        border: 0.1em solid #F8F8F8;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
