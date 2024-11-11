@@ -14,6 +14,7 @@
     text-align: center;
     padding: 0.5em;
     color: #f8f8f8;
+    margin-top: 2rem;
 }
 
 form {
@@ -32,7 +33,8 @@ label {
     text-align: left;
     font-size: 18px;
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: -20px;
+    margin-top: 20px;
 }
 
 .text1, .text2 {
@@ -69,15 +71,77 @@ label {
     border: none;
     border-radius: 2em;
     box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
-    width: 100px;
+    width: 120px;
     height: 40px;
     padding: 8px;
     margin: 8px 0;
     box-sizing: border-box;
     flex-shrink: 0;
+    margin-top: 20%;
 }
 
 .button-send:hover {
     background-color: #b43636;
     cursor: pointer;
+}
+
+.contact-quote {
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    .text1 {
+        width: 300px;
+    }
+
+    .text2 {
+        width: 620px;
+    }
+
+    .form-title, .form-title-name, .form-title-mail {
+        display: block;
+        margin-bottom: -20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin: auto;
+        margin-top: 4%;
+    }
+    
+    .input-row {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+    
+    .form-group {
+        flex: 1;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+    
+    .text-input, .text-area {
+        padding: 0.5em;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    .contact-quote {
+        display: block;
+        font-family: 'Afacad Flux';
+        font-size: 18px;
+        padding: 5em;
+        text-align: center;
+        color: #F8F8F8;
+    }
+
 }
