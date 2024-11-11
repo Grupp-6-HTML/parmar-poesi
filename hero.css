@@ -1,6 +1,6 @@
 
 .hero-section {
-    object-fit: cover;
+    /* object-fit: cover; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,7 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
-    object-position:  -45em;
+    /* object-position:  -45em; */
     position: relative;
     z-index: -1;
 }
