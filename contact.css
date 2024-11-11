@@ -68,12 +68,16 @@ label {
     font-size: 18px;
     border: none;
     border-radius: 2em;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    cursor: pointer;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
     width: 100px;
     height: 40px;
     padding: 8px;
     margin: 8px 0;
     box-sizing: border-box;
     flex-shrink: 0;
+}
+
+.button-send:hover {
+    background-color: #b43636;
+    cursor: pointer;
 }
