@@ -111,6 +111,7 @@
         position: relative;
         width: 100%;
         background: transparent;
+        height: 100vh;
     }
     .nyhets-block article {
         flex-direction: column;
@@ -175,6 +176,6 @@
     }
     .news-event-quote {
         position: absolute;
-        bottom: -8rem;
+        bottom: 8rem;
     }
 }
