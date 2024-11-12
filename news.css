@@ -24,7 +24,6 @@
     background-repeat: no-repeat; 
     opacity: 0.3; 
     z-index: -1;
-    text
 }
 .news-section h2 {
     font-size: 48px;
@@ -76,7 +75,7 @@
 .nyhets-block aside button {
     display: none;
 }
-.nyhets-block summary {
+.summary-news {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -146,7 +145,7 @@
         width: 100%;
         height: 100%;
     }
-    .nyhets-block summary {
+    .summary-news {
         width: 80%;
         position: absolute;
         bottom: 1em;

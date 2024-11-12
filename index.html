@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="se">
 
 <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link
@@ -20,8 +22,6 @@
     <link rel="stylesheet" href="news.css" />
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="footer.css" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pärmar & Poesi</title>
 </head>
 
@@ -35,21 +35,20 @@
             </button>
             <div class="hamburger-dropdown-content">
                 <img class="hamburger-dropdown-texture-image" src="./images/dropdown-texture.png" alt="hamburgermenuimage"/>
-                <ul class="dropdown-link-list">
+                <section class="dropdown-link-list">
                     <a class="dropdown-link" href="#event-section">Evenemang</a>
                     <a class="dropdown-link" href="#news-section">Nyheter</a>
                     <a class="dropdown-link" href="#contact-section">Kontakta oss</a>
                     <a class="dropdown-link" href="#contact-section">Facebook</a>
                     <a class="dropdown-link" href="#contact-section">Instagram</a>
-                </ul>
+                </section>
             </div>
             <div class="navbar-links-desktop">
-                <ul class="navbar-link-list">
+                <section class="navbar-link-list">
                     <a class="navbar-link" href="#event-section">Evenemang</a>
                     <a class="navbar-link" href="#news-section">Nyheter</a>
                     <a class="navbar-link" href="#contact-section">Kontakta oss</a>
-                    
-                </ul>
+                </section>
             </div>
         </nav>
     </header>
@@ -61,7 +60,7 @@
                 <h2 class="hero-headings">Böcker<br>Poesi<br>Gemenskap</h2>
                 <button class="hero-contact-us-button"><a class="hero-contact-us-button-text" href="#contact-section">Kontakta oss</a></button>
             </div>
-            <img src="./images/Expand Arrow.png" class="hero-down-arrow" alt="down-arrow"/>
+            <img src="./images/ExpandArrow.png" class="hero-down-arrow" alt="down-arrow"/>
         </section>
 
         <section class="event-section" id="event-section">
@@ -92,35 +91,35 @@
             <section class="nyhets-block">
                 <article>
                     <figure>
-                        <img src="/images/CamillaLäckberg.JPG" alt="CamillaLäckberg">
+                        <img src="images/CamillaLäckberg.JPG" alt="CamillaLäckberg">
                     </figure>
                     <aside>
                         <h3>Camilla Läckberg</h3>
                         <p>Boksignering i Vadstena! Se vilka böcker Camilla tycker om att Boksignering i Vadstena! Se vilka böcker Camilla tycker om att Boksignering i Vadstena! Se vilka böcker Camilla tycker om att</p>
                         <button type="submit">Läs Mer</button>
                     </aside>
-                    <summary>
+                    <section class="summary-news">
                         <p>Svenska Dagbladet 16h</p>
-                        <img src="/images/more-vertical.png" alt="moredetailsimage">
-                    </summary>
+                        <img src="images/more-vertical.png" alt="moredetailsimage">
+                    </section>
                 </article>
                 <article>
                     <figure>
-                        <img src="/images/BokmässanGBG.JPG" alt="BokmässanGBG">
+                        <img src="images/BokmässanGBG.JPG" alt="BokmässanGBG">
                     </figure>
                     <aside>
                         <h3>Bokmässan i Göteborg</h3>
                         <p>Få de senaste nyheterna om medverkande författare Få de senaste nyheterna om medverkande författare Få de senaste nyheterna om medverkande författare Få de senaste nyheterna om medverkande författare</p>
                         <button type="submit">Läs Mer</button>
                     </aside>
-                    <summary>
+                    <section class="summary-news">
                         <p>GP 1d</p>
-                        <img src="/images/more-vertical.png" alt="moredetailsimage">
-                    </summary>
+                        <img src="images/more-vertical.png" alt="moredetailsimage">
+                    </section>
                 </article>
                 <article>
                     <figure>
-                        <img src="/images/JensLapidus.JPG" alt="Jens Lapidus">
+                        <img src="images/JensLapidus.JPG" alt="Jens Lapidus">
                     </figure>
                     <aside>
                         <h3>Jens Lapidus</h3>
@@ -128,14 +127,14 @@
                         s dignissimos laboriosam consectetur, placeat iure natus repellat at cupiditate voluptatum? Assumenda soluta omnis consequatur quas deleniti.</p>
                         <button type="submit">Läs Mer</button>
                     </aside>
-                    <summary>
+                    <section class="summary-news">
                         <p>SvD 2d</p>
-                        <img src="/images/more-vertical.png" alt="moredetailsimage">
-                    </summary>
+                        <img src="images/more-vertical.png" alt="moredetailsimage">
+                    </section>
                 </article>
                 <button type="submit" class="news-button-send">Läs Mer</button>
                 <div class="news-event-quote">
-                    <p>“There is no friend as loyal as a book.”<br> ― Ernest Hemingway</p>
+                    <p><i>“There is no friend as loyal as a book.”</i><br> ― Ernest Hemingway</p>
                 </div>
             </section>
         </section>
@@ -143,54 +142,53 @@
         <section class="contact-section" id="contact-section">
             <h2 class="title-contact">Kontakta Oss</h2>
             <form>
-                <div class="input-row">
-                    <div class="form-group">
+                <section class="input-row">
+                    <section class="form-group">
                         <label for="name" class="form-title-name">Namn:</label><br>
-                        <input type="text" class="text1" id="name" name="name"><br>
-                    </div>
-                    <div class="form-group">
+                        <input type="text" class="text1" id="name" name="name" placeholder="Skriv här.." required=".{2,}$"><br>
+                    </section>
+                    <section class="form-group">
                         <label for="mail" class="form-title-mail">Mail:</label><br>
-                        <input type="text" class="text1" id="mail" name="mail"><br>
-                    </div>
-                </div>
-                <div class="form-group">
+                        <input type="email" class="text1" id="mail" name="mail" placeholder="Skriv här.." required><br>
+                    </section>
+                </section>
+                <section class="form-group">
                     <label for="text" class="form-title">Text:</label><br>
-                    <textarea id="message" name="message" class="text2" rows="10" cols="40"></textarea><br>
-                </div>
-                <div class="button-container">
+                    <textarea id="text" name="text" class="text2" rows="10" cols="40" placeholder="Skriv här.." required maxlength="250"></textarea><br>
+                </section>
+                <section class="button-container">
                     <button type="submit" class="button-send">Skicka</button>
-                </div>
+                </section>
             </form>
             <article class="contact-quote">
-                <p><i>“If you don’t like to read, you haven’t found the right book.”<br></i> ― J.K. Rowling</p>
+                <p><i>“If you don’t like to read, you haven’t found the right book.”</i><br> ― J.K. Rowling</p>
             </article>
         </section>
     </main>
 
     <footer>
-        <div class="footer-text openinghours">
+        <section class="footer-text openinghours">
             <h4>Öppettider</h4><br>
             <p>Mån-Fre - 10:00 - 20:00</p>
             <p>Lördag - 11:00 - 22:00</p>
             <p>Söndag - Stängt</p>
-        </div>
-        <div class="footer-text adress">
+        </section>
+        <section class="footer-text adress">
             <h4>Här Finns Vi</h4><br>
             <p>Pärmar & Poesi</p>
             <p>Bokgatan 21</p>
             <p>123 45 Bokstaden</p>
-        </div>
-        <div class="footer-text our-vision">
+        </section>
+        <section class="footer-text our-vision">
             <h4>Vår vision</h4><br>
             <p>Sedan vi startade 1984 har vårt</p>
             <p>mål varit att alla människor ska ha</p>
             <p>en trygg plats att få vara sig själva.</p>
-        </div>
-        <div class="social-media">
+        </section>
+        <section class="social-media">
             <i class="fab fa-instagram"></i>
             <i class="fab fa-facebook"></i>
-            </a>
-        </div>
+        </section>
     </footer>
 
     <script type="module" src="./navbar.js"></script>
