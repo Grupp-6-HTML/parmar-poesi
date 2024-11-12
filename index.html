@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="se">
+<html lang="sv">
 
 <head>
         <meta charset="UTF-8">
@@ -58,7 +58,7 @@
             <img src="./images/katt-desktop.jpeg" class="hero-image" alt="hero-image"/>
             <div class="hero-wrapper">
                 <h2 class="hero-headings">Böcker<br>Poesi<br>Gemenskap</h2>
-                <button class="hero-contact-us-button"><a class="hero-contact-us-button-text" href="#contact-section">Kontakta oss</a></button>
+                <a class="hero-contact-us-button" href="#contact-section">Kontakta oss</a>
             </div>
             <img src="./images/ExpandArrow.png" class="hero-down-arrow" alt="down-arrow"/>
         </section>
@@ -145,7 +145,7 @@
                 <section class="input-row">
                     <section class="form-group">
                         <label for="name" class="form-title-name">Namn:</label><br>
-                        <input type="text" class="text1" id="name" name="name" placeholder="Skriv här.." required=".{2,}$"><br>
+                        <input pattern="[a-zA-ZåäöÅÄÖ]+" oninvalid="setCustomValidity('Ange enbart bokstäver a-ö.')" type="text" class="text1" id="name" name="name" placeholder="Skriv här.." required=".{2,}$"><br>
                     </section>
                     <section class="form-group">
                         <label for="mail" class="form-title-mail">Mail:</label><br>

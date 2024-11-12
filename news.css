@@ -26,7 +26,7 @@
     z-index: -1;
 }
 .news-section h2 {
-    font-size: 48px;
+    font-size: 3rem;
     color: #F8F8F8;
     font-family: "Bagel Fat One";
     font-weight: 400;
@@ -39,7 +39,7 @@
     flex-direction: column;
     font-family: 'Afacad Flux';
     height: auto;
-    font-size: 18px;
+    font-size: 1.125rem;
     gap: 1em;
     width: clamp(200px, 100%, 600px);
 }
@@ -87,7 +87,7 @@
     font-family: 'Afacad Flux';
     align-self: center;
     color: #f8f8f8;
-    font-size: 18px;
+    font-size: 1.125rem;
     background-color: #D63D3D;
     border: none;
     border-radius: 2em;
@@ -101,8 +101,9 @@
 }
 .news-event-quote{
     font-family: 'Afacad Flux';
-    font-size: 18px;
+    font-size: 1.125rem;
     align-self: center;
+    text-align: center;
 }
 
 @media screen and (min-width: 1200px){
@@ -123,7 +124,7 @@
         background: #F8F8F8;
         margin: 0em 1em 0em;
         max-width: 600px;
-        font-size: 16px;
+        font-size: 1rem;
     }
     .nyhets-block aside {
         display: flex;
@@ -165,7 +166,7 @@
         position: absolute;
         bottom: -4rem;
         color: #f8f8f8;
-        font-size: 18px;
+        font-size: 1.125rem;
         background-color: #D63D3D;
         border: none;
         border-radius: 2em;
@@ -178,9 +179,8 @@
         cursor: pointer;
     }
     .news-event-quote {
-        font-size: 22px;
+        font-size: 1.375rem;
         position: absolute;
-        text-align: center;
         bottom: 8rem;
     }
 }
