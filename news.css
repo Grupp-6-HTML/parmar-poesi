@@ -84,6 +84,7 @@
     border-bottom: 1px solid black;
 }
 .news-button-send {
+    font-family: 'Afacad Flux';
     align-self: center;
     color: #f8f8f8;
     font-size: 18px;
@@ -111,7 +112,7 @@
         position: relative;
         width: 100%;
         background: transparent;
-        height: 100vh;
+        height: 90vh;
     }
     .nyhets-block article {
         flex-direction: column;
@@ -122,6 +123,7 @@
         background: #F8F8F8;
         margin: 0em 1em 0em;
         max-width: 600px;
+        font-size: 16px;
     }
     .nyhets-block aside {
         display: flex;
@@ -138,7 +140,7 @@
     .nyhets-block figure {
         width: auto;
         height: 100%;
-        max-height: 18rem;
+        min-height: 18rem;
     }
     .nyhets-block figure img {
         border-radius: 10%;
@@ -155,6 +157,7 @@
         display: none;
     }
     .nyhets-block aside button {
+        font-family: 'Afacad Flux';
         display: flex;
         align-items: center;
         align-self: center;
@@ -175,7 +178,9 @@
         cursor: pointer;
     }
     .news-event-quote {
+        font-size: 22px;
         position: absolute;
+        text-align: center;
         bottom: 8rem;
     }
 }
