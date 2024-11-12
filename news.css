@@ -103,6 +103,7 @@
     font-family: 'Afacad Flux';
     font-size: 18px;
     align-self: center;
+    text-align: center;
 }
 
 @media screen and (min-width: 1200px){
