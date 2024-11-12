@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="se">
+<html lang="sv">
 
 <head>
         <meta charset="UTF-8">
@@ -145,7 +145,7 @@
                 <section class="input-row">
                     <section class="form-group">
                         <label for="name" class="form-title-name">Namn:</label><br>
-                        <input type="text" class="text1" id="name" name="name" placeholder="Skriv här.." required=".{2,}$"><br>
+                        <input pattern="[a-zA-ZåäöÅÄÖ]+" oninvalid="setCustomValidity('Ange enbart bokstäver a-ö.')" type="text" class="text1" id="name" name="name" placeholder="Skriv här.." required=".{2,}$"><br>
                     </section>
                     <section class="form-group">
                         <label for="mail" class="form-title-mail">Mail:</label><br>
