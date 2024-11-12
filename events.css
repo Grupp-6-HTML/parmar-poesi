@@ -98,7 +98,7 @@
         width: 100%;
         padding: 1em;
         object-fit: cover;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .event-image {
@@ -146,7 +146,7 @@
         width: 100%;
         padding: 1em;
         object-fit: cover;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .event-image {
@@ -165,23 +165,5 @@
     }
 }
 
-/* @media only screen and (min-width: 768px) and (max-width: 600px) {
 
-.event-card {
-    width: 80%;
-    max-width: 400px;
-    display: flex;
-    flex-direction: row;
-}
-.event-content {
-    font-size: 18px;
-    width: 60%;
-    padding: 0.5em;
-}
-
-.event-image {
-    width: 40%;
-    height: auto;
-    object-fit: cover;
-} */
 
