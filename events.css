@@ -29,8 +29,7 @@
 
 .event-section h2 {
     font-family: 'Bagel Fat One';
-    font-size: 48px;
-    margin-bottom: 0.5em;
+    font-size: 3rem;
     margin-top: 2rem;
 }
 
@@ -50,7 +49,7 @@
 
 .event-content {
     font-family: 'Afacad Flux';
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: left;
     width: 50%;
     padding: 1em;
@@ -64,7 +63,7 @@
 
 .event-quote {
     font-family: 'Afacad Flux';
-    font-size: 18px;
+    font-size: 1.125rem;
     padding: 3em;
     text-align: center;
 }
@@ -99,7 +98,7 @@
         width: 100%;
         padding: 1em;
         object-fit: cover;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .event-image {
@@ -109,7 +108,7 @@
     }
 
     .event-quote {
-        font-size: 22px;
+        font-size: 1.375rem;
         position: absolute;
         bottom: 1em;
         width: 100%;
@@ -147,7 +146,7 @@
         width: 100%;
         padding: 1em;
         object-fit: cover;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .event-image {
@@ -157,7 +156,7 @@
     }
 
     .event-quote {
-        font-size: 22px;
+        font-size: 1.375rem;
         position: absolute;
         bottom: 1em;
         width: 100%;
