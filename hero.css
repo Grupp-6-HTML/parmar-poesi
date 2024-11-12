@@ -37,6 +37,7 @@
 }
 
 .hero-contact-us-button {
+    display: flex;
     font-family: 'Afacad Flux';
     width: 7em;
     height: 2em;
@@ -45,11 +46,10 @@
     border: none;
     border-radius: 2em;
     text-decoration: none;
-}
-
-.hero-contact-us-button-text {
     color: white;
-    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
 }
 
 .hero-down-arrow {
