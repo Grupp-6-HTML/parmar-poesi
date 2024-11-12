@@ -6,7 +6,7 @@
     background-position: center;
     position: relative;
     padding: 1em;
-    height: 100vh;
+    height: auto;
 }
 
 .title-contact {
@@ -27,7 +27,7 @@ form {
     align-items: center;
     text-align: right;
     margin-top: 1.5em;
-    max-height: 25em;
+    height: 75vh;
 }
 
 label {
@@ -95,6 +95,10 @@ label {
 
 @media only screen and (min-width: 1200px) {
 
+    .contact-section {
+        height: auto;
+    }
+
     .text1 {
         width: 300px;
     }
@@ -114,6 +118,7 @@ label {
         gap: 1em;
         margin: auto;
         margin-top: 4%;
+        height: auto;
     }
     
     .input-row {
@@ -133,7 +138,7 @@ label {
     
     .text-input, .text-area {
         padding: 0.5em;
-        font-size: 16px;
+        font-size: 18px;
         box-sizing: border-box;
     }
 
@@ -144,12 +149,17 @@ label {
         padding: 5em;
         text-align: center;
         color: #F8F8F8;
+        margin-bottom: 10em;
     }
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
 
+    .contact-form {
+        height: auto;
+    }
+
     .text1 {
         width: 300px;
     }
@@ -169,6 +179,7 @@ label {
         gap: 1em;
         margin: auto;
         margin-top: 4%;
+        height: auto;
     }
     
     .input-row {
@@ -188,7 +199,7 @@ label {
     
     .text-input, .text-area {
         padding: 0.5em;
-        font-size: 16px;
+        font-size: 18px;
         box-sizing: border-box;
     }
 
@@ -199,11 +210,20 @@ label {
         padding: 5em;
         text-align: center;
         color: #F8F8F8;
+        margin-bottom: 10em;
     }
 
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    .contact-form {
+        height: auto;
+    }
+
+    form {
+        height: auto;
+    }
 
     .contact-quote {
         display: block;
@@ -212,5 +232,6 @@ label {
         padding: 5em;
         text-align: center;
         color: #F8F8F8;
+        margin-bottom: 8em;
     }
 }
