@@ -38,7 +38,8 @@ footer {
     }
 
     body {
-        border: 0.1em solid #F8F8F8;
+        border-left: 0.1em solid #F8F8F8;
+        border-right: 0.1em solid #F8F8F8;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
