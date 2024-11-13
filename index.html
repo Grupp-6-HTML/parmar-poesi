@@ -145,7 +145,7 @@
                 <section class="input-row">
                     <section class="form-group">
                         <label for="name" class="form-title-name">Namn:</label><br>
-                        <input pattern="[a-zA-ZåäöÅÄÖ]+" oninvalid="setCustomValidity('Ange enbart bokstäver a-ö.')" type="text" class="text1" id="name" name="name" placeholder="Skriv här.." required=".{2,}$"><br>
+                        <input pattern="[a-zA-ZåäöÅÄÖ]+" oninvalid="this.setCustomValidity('Ange enbart bokstäver a-ö.')" oninput="this.setCustomValidity('')" type="text" class="text1" id="name" name="name" placeholder="Skriv här.." required minlength="2"><br>
                     </section>
                     <section class="form-group">
                         <label for="mail" class="form-title-mail">Mail:</label><br>
@@ -180,7 +180,7 @@
             <p>123 45 Bokstaden</p>
         </section>
         <section class="footer-text our-vision">
-            <h4>Vår vision</h4><br>
+            <h4>Vår Vision</h4><br>
             <p>Sedan vi startade 1984 har vårt</p>
             <p>mål varit att alla människor ska ha</p>
             <p>en trygg plats att få vara sig själva.</p>

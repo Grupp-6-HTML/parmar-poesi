@@ -145,10 +145,10 @@ label {
         display: block;
         font-family: 'Afacad Flux';
         font-size: 1.125rem;
-        padding: 5em;
+        padding: 3em;
         text-align: center;
         color: #F8F8F8;
-        margin-bottom: 6em;
+        margin-bottom: 10em;
     }
 
 }
@@ -205,10 +205,10 @@ label {
         display: block;
         font-family: 'Afacad Flux';
         font-size: 1.125rem;
-        padding: 5em;
+        padding: 3em;
         text-align: center;
         color: #F8F8F8;
-        margin-bottom: 6em;
+        margin-bottom: 10em;
     }
 
 }
@@ -227,9 +227,9 @@ label {
         display: block;
         font-family: 'Afacad Flux';
         font-size: 1.125rem;
-        padding: 5em;
+        padding: 3em;
         text-align: center;
         color: #F8F8F8;
-        margin-bottom: 4em;
+        margin-bottom: 6em;
     }
 }
