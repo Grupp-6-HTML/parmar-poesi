@@ -11,7 +11,7 @@
 
 .title-contact {
     font-family: 'Bagel Fat One', sans-serif;
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
     padding: 0.5em;
     color: #f8f8f8;
@@ -21,7 +21,7 @@
 form {
     color: #f8f8f8;
     font-family: 'Afacad Flux', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +33,7 @@ form {
 label {
     width: 300px;
     text-align: left;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: block;
     margin-bottom: -20px;
     margin-top: 20px;
@@ -43,7 +43,7 @@ label {
     width: 300px;
     padding: 10px;
     margin: 1px 0;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: 'Afacad Flux', sans-serif;  
 }
 
@@ -69,7 +69,7 @@ label {
     color: #f8f8f8;
     background-color: #D63D3D;
     font-family: 'Afacad Flux';
-    font-size: 18px;
+    font-size: 1.125rem;
     border: none;
     border-radius: 2em;
     box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
@@ -138,18 +138,17 @@ label {
     
     .text-input, .text-area {
         padding: 0.5em;
-        font-size: 18px;
         box-sizing: border-box;
     }
 
     .contact-quote {
         display: block;
         font-family: 'Afacad Flux';
-        font-size: 18px;
-        padding: 5em;
+        font-size: 1.125rem;
+        padding: 3em;
         text-align: center;
         color: #F8F8F8;
-        margin-bottom: 6em;
+        margin-bottom: 10em;
     }
 
 }
@@ -199,18 +198,17 @@ label {
     
     .text-input, .text-area {
         padding: 0.5em;
-        font-size: 18px;
         box-sizing: border-box;
     }
 
     .contact-quote {
         display: block;
         font-family: 'Afacad Flux';
-        font-size: 18px;
-        padding: 5em;
+        font-size: 1.125rem;
+        padding: 3em;
         text-align: center;
         color: #F8F8F8;
-        margin-bottom: 6em;
+        margin-bottom: 10em;
     }
 
 }
@@ -228,10 +226,10 @@ label {
     .contact-quote {
         display: block;
         font-family: 'Afacad Flux';
-        font-size: 18px;
-        padding: 5em;
+        font-size: 1.125rem;
+        padding: 3em;
         text-align: center;
         color: #F8F8F8;
-        margin-bottom: 4em;
+        margin-bottom: 6em;
     }
 }

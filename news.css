@@ -41,6 +41,7 @@
     height: auto;
     font-size: 1.125rem;
     gap: 1em;
+    padding: 1em;
     width: clamp(200px, 100%, 600px);
 }
 .nyhets-block article {
@@ -49,21 +50,21 @@
     width: 100%;
     flex-wrap: wrap;
     padding: 1em;
-    transition: background 0.3s ease-in-out;
 }
 .nyhets-block article:hover {
     background: #FF9DEA;
 }
 .nyhets-block figure {
     display: flex;
-    width: 120px;
+    width: 40%;
     height: auto;
 }
 .nyhets-block figure img {
-    border-radius: 10%;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
+
 .nyhets-block aside {
     display: flex;
     flex-wrap: wrap;
@@ -107,6 +108,9 @@
 }
 
 @media screen and (min-width: 1200px){
+    .news-section {
+        min-height: 65em;
+    }
     .nyhets-block {
         flex-direction: row;
         justify-content: center;
@@ -120,10 +124,10 @@
         align-items: center;
         flex-wrap: nowrap;
         position: relative;
-        max-height: 500px;
+        height: 70%;
         background: #F8F8F8;
         margin: 0em 1em 0em;
-        max-width: 600px;
+        max-width: 400px;
         font-size: 1rem;
     }
     .nyhets-block aside {
@@ -139,17 +143,10 @@
         align-self: center;
     }
     .nyhets-block figure {
-        width: auto;
-        height: 100%;
-        min-height: 18rem;
+        width: 90%;
     }
-    .nyhets-block figure img {
-        border-radius: 10%;
-        width: 100%;
-        height: 100%;
-    }
-    .nyhets-block summary {
-        width: 80%;
+    .summary-news {
+        width: 90%;
         position: absolute;
         bottom: 1em;
         border-bottom: 1px solid black;
@@ -181,6 +178,6 @@
     .news-event-quote {
         font-size: 1.375rem;
         position: absolute;
-        bottom: 8rem;
+        bottom: 0;
     }
 }
