@@ -55,7 +55,8 @@
 .hero-down-arrow {
     position: absolute;
     top: 80%;
-    scale: 0.5;
+    height: 4em;
+    width: 4em;
     opacity: 0;
     margin-top: 3.5em;
     animation-name: pulsating;
